@@ -86,7 +86,7 @@ submit_button=ttk.Button(win,width=16,text='Submit',command=action)
 submit_button.grid(row=6,column=0)
 
 
-submit_button.grid(row=6,column=0)
+
 
 
 
