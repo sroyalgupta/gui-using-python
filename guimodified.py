@@ -79,8 +79,8 @@ def action():
     connection=smtplib.SMTP('smtp.gmail.com',587)
     connection.ehlo()
     connection.starttls()
-    connection.login('sagarguptasargam@gmail.com',"Pass@123")
-    connection.sendmail('sagarguptasargam@gmail.com',uemail,message)
+    connection.login('sagarguptasargam123@gmail.com',"srg@2909")
+    connection.sendmail('sagarguptasargam123@gmail.com',uemail,message)
    
 submit_button=ttk.Button(win,width=16,text='Submit',command=action)
 submit_button.grid(row=6,column=0)
