@@ -46,7 +46,7 @@ radio_btn2=ttk.Radiobutton(win,text='Teacher',value='Teacher',variable=radio)
 radio_btn2.grid(row=4,column=2)
 
 check=tk.IntVar()
-check_box=ttk.Checkbutton(win,text="Click if you want to subscribe the channel",variable=check)
+check_box=ttk.Checkbutton(win,text="Have You liked the application? ",variable=check)
 check_box.grid(row=5,columnspan=3)
 
 def action():
